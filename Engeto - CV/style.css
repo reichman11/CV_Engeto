@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+}
+.container {
+  display: flex;
+  width: 900px;
+  height: 1000px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 50px 50px 50px grey;
+}
+/* LEFT SIDE SECTION */
+aside {
+  width: 250px;
+  height: 1000px;
+  background-color: rgb(47, 47, 47);
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+aside h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 20px 0 20px 40px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(246, 228, 61);
+}
+aside h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+aside div {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+aside p,
+aside a {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+aside a:hover {
+  color: rgb(246, 228, 61);
+  text-decoration: underline;
+}
+aside ul li {
+  list-style-type: square;
+  margin: 0 0 20px 55px;
+}
+aside li::marker {
+  color: rgb(246, 228, 61);
+}
+/* HEADER SECTION */
+header {
+  width: 650px;
+  height: 200px;
+  background-color: rgb(246, 228, 61);
+  margin: 80px 0 20px 0;
+  padding: 40px;
+}
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-size: 50px;
+}
+header p {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* MAIN SECTION */
+article section {
+  padding: 20px 40px 0 40px;
+}
+article h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+}
+.about-me p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+table {
+  padding: 20px 0 0 0;
+}
+table td {
+  width: 200px;
+  padding: 10px 0 0 0;
+  font-size: 16px;
+}
+table td:nth-child(2) {
+  width: 450px;
+}
+
+.work-experience h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.work-experience h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+}
+.skills div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills ul {
+  list-style: circle;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 200px;
+}
